@@ -2,7 +2,7 @@
 
 This is a simple toy OpenGL renderer made in C, using my in developement engine.
 
-[<img width="486" height="289" alt="image" src="https://github.com/user-attachments/assets/ee1e7a88-e40b-4821-8bf8-00e4623d9dda" />](https://www.youtube.com/watch?v=kfAeWxv_u_Q)
+[<img width="486" height="289" alt="image" src="https://github.com/user-attachments/assets/ee1e7a88-e40b-4821-8bf8-00e4623d9dda" />](https://www.youtube.com/watch?v=Y87ZzacBAQ8)
 
 ## Features
 - PBR inspired material rendering
