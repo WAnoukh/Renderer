@@ -23,6 +23,8 @@ target_link_libraries(exe
     core
 )
 
+target_link_options(exe PRIVATE -static-libgcc -static-libstdc++ -static)
+
 target_include_directories(exe
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../shared/

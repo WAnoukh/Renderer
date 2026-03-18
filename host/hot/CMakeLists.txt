@@ -15,6 +15,8 @@ target_include_directories(hot
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../shared/
 )
 
+target_link_options(hot PRIVATE -static-libgcc -static-libstdc++ -static)
+
 set_target_properties(hot PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"

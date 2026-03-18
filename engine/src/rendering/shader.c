@@ -14,7 +14,7 @@ int load_shader_from_file(const char *path, char** out_shader)
     FILE *file = fopen(path, "r");
     if (!file)
     {
-        perror("File not found\n");
+        printf("File \"%s\" not found\n", path);
         return 0;
     }
 
